@@ -1,0 +1,122 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #eee;
+}
+
+nav a:hover {
+    background-color: #ddd;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 96%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.loader {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#product-list {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.product-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.product-item:hover {
+    background-color: #f0f0f0;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.th,td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+.th {
+    background-color: #007bff; /* Header background color */
+    color: #fff; /* Header text color */
+    text-align: left;
+    font-weight: bold;
+}
+
+.tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Even row background color */
+}
+
+.tbody tr:hover {
+    background-color: #e2e2e2; /* Hover row background color */
+}
